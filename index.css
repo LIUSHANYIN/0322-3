@@ -1,0 +1,150 @@
+nav {
+  background-color: #343a40;
+  position: fixed;
+  width: 1700px;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.start a {
+  padding-left: 250px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.container2 ul {
+  display: flex;
+  padding-right: 230px;
+}
+.special_a {
+  color: white;
+  text-decoration: none;
+}
+.mya {
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+  padding-left: 20px;
+}
+
+.mya:hover {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.box1 {
+  padding-top: 80px;
+  width: 100%;
+  
+}
+
+.container3 {
+  background-color: #e9ecef;
+  margin: 0px 260px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 320px;
+  width: 1105px;
+}
+.container3 h1 {
+  padding-left: 30px;
+
+  
+  font-size: 65px;
+}
+
+.container3 h2 {
+  padding-left: 30px;
+  padding-top: 20px;
+}
+
+.bt1 {
+  padding-left: 15px;
+  width: 156px;
+  height: 46px;
+  margin-left: 30px;
+  margin-top: 20px;
+  display: flex;
+  background-color: #007bff;
+  color: white;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.bt1:hover {
+  background-color: #0565cc;
+}
+
+.box2 {
+  width: 1130px;
+  height: 454px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-left: 260px;
+
+  margin-top: 30px;
+}
+
+.container4 {
+  width: 255px;
+  height: 430px;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+.top img {
+  width: 100%;
+}
+
+.middle {
+  width: 213px;
+  height: 160px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.middle h3 {
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.middle p {
+  padding-top: 20px;
+  line-height: 1.5;
+  font-size: 15px;
+  text-align: center;
+}
+.bottom {
+  width: 100%;
+  height: 63px;
+  background-color: rgba(0, 0, 0, 0.03);
+}
+.bt2 {
+  background-color: #007bff;
+  color: white;
+  width: 128px;
+  height: 38px;
+  margin: 15px 60px;
+  border-radius: 10px;
+}
+.bt2:hover {
+  background-color: #0565cc;
+}
+
+.box3 {
+  width: 1700px;
+  height: 130px;
+  background-color: #343a40;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer p {
+  color: white;
+}
